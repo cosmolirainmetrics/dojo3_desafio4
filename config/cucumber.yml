@@ -1,0 +1,5 @@
+default: --no-source --color --format pretty
+
+criar_livro: -t @criar_livro -f html -o ./features/reports/criar_livro_report.html
+buscar_livro:  -t @buscar_livro -f html -o ./features/reports/buscar_livro_report.html
+alterar_livro: -t @alterar_livro -f html -o ./features/reports/alterar_livro_report.html
